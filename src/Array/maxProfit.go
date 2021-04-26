@@ -1,5 +1,5 @@
 package main
-
+//最大收益，解题思路，最长波段
 import "fmt"
 
 func main() {

@@ -1,5 +1,5 @@
 package main
-
+//最长匹配数
 import (
 	"fmt"
     "strings"

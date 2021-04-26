@@ -1,5 +1,5 @@
 package main
-
+//取数组的交集
 import (
 	"fmt"
 	"sort"
