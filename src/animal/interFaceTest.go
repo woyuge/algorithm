@@ -1,4 +1,4 @@
-package main
+package animal
 
 type Integer int
 
@@ -27,9 +27,4 @@ type IntNumber interface {
 	MoreThan(i Integer) bool
 	Increase(i Integer)
 	Decrease(i Integer)
-}
-
-func main()  {
-	var a Integer = 1
-	var b IntNumber = &a
 }
