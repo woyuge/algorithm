@@ -9,7 +9,7 @@ func main()  {
 	 rotate(a,3)
 
 }
-//关键在于这段代码
+
 func rotate(nums []int, k int)  {
 	//旋转位
 	var length int = len(nums)
@@ -19,6 +19,7 @@ func rotate(nums []int, k int)  {
 		temp[i] = v
 	}
 	for i:=0; i<length;i++{
+		 //关键在于这段代码，取模运算
 			nums[(i+k)%length] = temp[i]
 		}
 	fmt.Println(nums)
